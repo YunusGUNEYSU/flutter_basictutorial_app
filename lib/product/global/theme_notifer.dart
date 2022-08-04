@@ -8,5 +8,5 @@ class ThemeNotifer extends ChangeNotifier {
     isLightTheme=!isLightTheme;
     notifyListeners();
   }
-  ThemeData get currentTheme => isLightTheme ?ThemeData.light():ThemeData.dark();  
+  ThemeData get currentTheme => !isLightTheme ?ThemeData.light():ThemeData.dark();  
 }

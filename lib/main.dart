@@ -3,6 +3,7 @@ import 'package:flutter_next_level/product/global/resource_context.dart';
 import 'package:flutter_next_level/product/global/theme_notifer.dart';
 import 'package:provider/provider.dart';
 
+import '303/lottie_learn.dart';
 import '303/reqres_resource/view/req_res_view.dart';
 
 void main() {
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: context.watch<ThemeNotifer>().currentTheme,
       
-      home:  const ReqResView(),
+      home:  LottieLearn(),
     );
   }
 }
