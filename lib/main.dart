@@ -10,7 +10,7 @@ void main() {
     Provider(create: (_) => ResourceContext(),),
     ChangeNotifierProvider<ThemeNotifer>(create:(context) =>  ThemeNotifer())
   ],
-  builder: (context, child) => MyApp(),
+  builder: (context, child) => const MyApp(),
   
   ));
 }

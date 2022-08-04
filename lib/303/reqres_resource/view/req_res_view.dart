@@ -1,6 +1,6 @@
 
 
-import 'dart:js';
+
 
 import 'package:flutter/material.dart';
 import 'package:flutter_next_level/303/reqres_resource/service/reqres_service.dart';
