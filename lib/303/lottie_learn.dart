@@ -7,7 +7,7 @@ import 'package:flutter_next_level/product/constant/lottie_items.dart';
 import 'package:provider/provider.dart';
 
 class LottieLearn extends StatefulWidget {
-  LottieLearn({Key? key}) : super(key: key);
+  const LottieLearn({Key? key}) : super(key: key);
 
   @override
   State<LottieLearn> createState() => _LottieLearnState();
